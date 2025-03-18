@@ -16,20 +16,7 @@ In the example, we created 3 classes of Animal which are handled differently by 
 - [`Dog`](dog.h): considered hungry by the Caregiver if hungryLevel>5 and considered sick by the Vet if healthLevel<5
 - [`Cat`](cat.h): considered hungry by the Caregiver if hungryLevel>3 and considered sick by the Vet if healthLevel<3
 - [`Lion`](lion.h): considered hungry by the Caregiver if hungryLevel>2 and can't be diagnosed by the Vet
-
-## Class and sequence diagrams
-
-NB: All diagrams are in the [docs/](docs/) directory.
-
-### Class diagram
-
-![Class Diagram](docs/DiagrammeDeClasse.png)
-
-### Sequence diagrams
-
-![Sequence Diagram](sequence.jpg) 
-![Sequence Diagram](Sans_titre.jpg)
-
+  
 ## Building the project
 
 This is a C++ project. To build it, you'll need:
@@ -37,14 +24,7 @@ This is a C++ project. To build it, you'll need:
 - A C++ compiler supporting C++11 or later
 - CMake (recommended) or Make
 
-Then, you will need to clone the project and change your working directory:
-
-```bash
-git clone https://gitlab.imt-atlantique.fr/s22thong/cpp_designpattern_visitor.git
-
-cd cpp_designpattern_visitor
-```
-
+Then, you will need to clone the project and change your working directory
 Afterwards you can compile all files and launch the main function of the project:
 
 ```bash
